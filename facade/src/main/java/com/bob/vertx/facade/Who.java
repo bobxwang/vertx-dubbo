@@ -9,5 +9,9 @@ public interface Who {
 
     Long currentUserId();
 
-    User map(Integer id);
+    User findUserById(Integer id);
+
+    User updateByUser(User user);
+
+    User deleteByUser(User user, Integer id);
 }

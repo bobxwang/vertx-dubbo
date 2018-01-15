@@ -18,10 +18,26 @@ public class WhoImpl implements Who {
     }
 
     @Override
-    public User map(Integer id) {
+    public User findUserById(Integer id) {
         User user = new User();
         user.setId(currentUserId().intValue());
         user.setName(new Date().toString());
         return user;
+    }
+
+    @Override
+    public User updateByUser(User user) {
+        User u = new User();
+        u.setName(user.getName());
+        u.setId(currentUserId().intValue());
+        return u;
+    }
+
+    @Override
+    public User deleteByUser(User user, Integer id) {
+        User u = new User();
+        u.setName(user.getName());
+        u.setId(id);
+        return u;
     }
 }
