@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.bob.vertx</groupId>
-    <artifactId>vertx-bob-dbparent</artifactId>
+    <artifactId>vertx-dubbo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>webapi</module>
@@ -11,8 +11,8 @@
     </modules>
     <packaging>pom</packaging>
 
-    <name>vertx-bob-dbparent</name>
-    <description>vertx-bob-dbparent</description>
+    <name>vertx-dubbo</name>
+    <description>vertx-dubbo</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -45,7 +45,7 @@
             </dependency>
             <dependency>
                 <groupId>org.bob.wd.dubbo</groupId>
-                <artifactId>bob-dubbo-ext</artifactId>
+                <artifactId>dubbo-ext</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
 
