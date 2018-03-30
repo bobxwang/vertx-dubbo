@@ -2,6 +2,8 @@
 >
 > 你需要做的是:
 > - 下载 [dubbo-ext](https://github.com/bobxwang/dubbo-ext) 扩展包,编译并打包到你本机的maven#repository 目录中
+> 
+> 可以通过 webapi/src/test/下面的代码来知道如何使用, post接口的使用可以能过get掊来知道需要post什么样的数据 
 
 # facade 模块
 > dubbo待发布接口
