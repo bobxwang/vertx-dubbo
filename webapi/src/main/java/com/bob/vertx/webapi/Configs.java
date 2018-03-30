@@ -10,7 +10,7 @@ import com.bob.wd.provider.DubboProvider;
  */
 public final class Configs {
 
-    public static final DubboConsumerConfig dubboConsumerConfig = new DubboConsumerConfig("bob.consumer.test", "zookeeper", "172.20.100.119:2181", 2500);
+    public static final DubboConsumerConfig dubboConsumerConfig = new DubboConsumerConfig("bob.consumer.test", "zookeeper", "127.0.0.1:2181", 2500);
 
     public static final DubboProviderConfig dubboProviderConfig = new DubboProviderConfig(dubboConsumerConfig, 200, "dubbo", 20880);
 

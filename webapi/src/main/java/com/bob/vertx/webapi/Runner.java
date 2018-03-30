@@ -24,9 +24,9 @@ public class Runner {
 
         System.setProperty("vertx.logger-delegate-factory-class-name", "io.vertx.core.logging.SLF4JLogDelegateFactory");
 
-        Runner runner = new Runner();
-        runner.runDubboRegister();
-        runner.runDubboInvoke();
+//        Runner runner = new Runner();
+//        runner.runDubboRegister();
+//        runner.runDubboInvoke();
 
         VertxOptions vo = new VertxOptions();
         vo.setEventLoopPoolSize(Runtime.getRuntime().availableProcessors() * 2);
